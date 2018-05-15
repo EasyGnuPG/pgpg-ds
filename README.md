@@ -6,7 +6,9 @@
 
   - Then get the scripts from github:
     ```
-    git clone --branch gnupg-2.2-bionic https://github.com/easygnupg/egpg-ds /var/ds/egpg-gnupg-2.2-bionic
+    git clone --branch gnupg-2.2-bionic \
+        https://github.com/easygnupg/egpg-ds \
+        /opt/docker-scripts/egpg-gnupg-2.2-bionic
     ```
 
   - Create a directory for the container: `ds init egpg-gnupg-2.2-bionic @egpg-gnupg-2.2-bionic`
