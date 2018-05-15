@@ -1,3 +1,3 @@
-APP=egpg-ds
-IMAGE=egpg
-CONTAINER=egpg
+APP=egpg-bionic
+IMAGE=egpg-bionic
+CONTAINER=egpg-bionic

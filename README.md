@@ -6,14 +6,14 @@
 
   - Then get the scripts from github:
     ```
-    git clone --branch gnupg-2.2-bionic \
+    git clone --branch bionic \
         https://github.com/easygnupg/egpg-ds \
-        /opt/docker-scripts/egpg-gnupg-2.2-bionic
+        /opt/docker-scripts/egpg-bionic
     ```
 
-  - Create a directory for the container: `ds init egpg-gnupg-2.2-bionic @egpg-gnupg-2.2-bionic`
+  - Create a directory for the container: `ds init egpg-bionic @egpg-bionic`
 
-  - Fix the settings: `cd /var/ds/egpg-gnupg-2.2-bionic/ ; vim settings.sh`
+  - Fix the settings: `cd /var/ds/egpg-bionic/ ; vim settings.sh`
 
   - Get the proper branch of *egpg*: `git clone --branch gnupg-2.2 https://github.com/easygnupg/egpg`
 
