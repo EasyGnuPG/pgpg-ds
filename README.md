@@ -1,4 +1,4 @@
-# Container for developing and testing EGPG
+# Container for developing and testing PGPG
 
 ## Installation
 
@@ -7,15 +7,15 @@
   - Then get the scripts from github:
     ```
     git clone --branch bionic \
-        https://github.com/easygnupg/egpg-ds \
-        /opt/docker-scripts/egpg-bionic
+        https://github.com/easygnupg/pgpg-ds \
+        /opt/docker-scripts/pgpg-bionic
     ```
 
-  - Create a directory for the container: `ds init egpg-bionic @egpg-bionic`
+  - Create a directory for the container: `ds init pgpg-bionic @pgpg-bionic`
 
-  - Fix the settings: `cd /var/ds/egpg-bionic/ ; vim settings.sh`
+  - Fix the settings: `cd /var/ds/pgpg-bionic/ ; vim settings.sh`
 
-  - Get the proper branch of *egpg*: `git clone --branch gnupg-2.2 https://github.com/easygnupg/egpg`
+  - Get the proper branch of *pgpg*: `git clone --branch gnupg-2.2 https://github.com/easygnupg/pgpg`
 
   - Create the container: `ds make`
 

@@ -7,7 +7,7 @@ RUN apt update && \
     systemctl set-default multi-user.target
 
 CMD ["/sbin/init"]
-WORKDIR /host/egpg
+WORKDIR /host/pgpg
 
 ### install dependencies
 RUN apt -y install gnupg2 pinentry-tty haveged libgfshare-bin parcimonie \
@@ -22,3 +22,7 @@ RUN apt -y install jekyll
 
 ### install man to test man pages locally inside container
 RUN apt -y install less man
+
+### install pgpg dependencies
+RUN apt -y install python3-gpg python3-pip
+RUN pip3 install virtualenv

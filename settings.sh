@@ -1,4 +1,4 @@
-APP=egpg-bionic
-IMAGE=egpg-bionic
-CONTAINER=egpg-bionic
+APP=pgpg-bionic
+IMAGE=pgpg-bionic
+CONTAINER=pgpg-bionic
 PORTS="4000:4000"
