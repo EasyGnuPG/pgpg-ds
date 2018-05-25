@@ -8,7 +8,7 @@ _EOF
 
 cmd_jekyll() {
     set -x
-    cd egpg/
+    cd pgpg/
     git checkout gh-pages
     cd -
     ds exec jekyll serve --watch --host 0.0.0.0 "$@"

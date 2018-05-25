@@ -1,4 +1,4 @@
 #!/bin/bash -x
 
-cd /host/egpg/tests/
+cd /host/pgpg/tests/
 ./run.sh "$@"

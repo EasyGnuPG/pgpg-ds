@@ -1,4 +1,4 @@
-# Container for developing and testing EGPG
+# Container for developing and testing PGPG
 
 ## Installation
 
@@ -7,17 +7,20 @@
   - Then get the scripts from github:
     ```
     git clone --branch buster \
-        https://github.com/easygnupg/egpg-ds \
-        /opt/docker-scripts/egpg-buster
+        https://github.com/easygnupg/pgpg-ds \
+        /opt/docker-scripts/pgpg-buster
     ```
 
-  - Create a directory for the container: `ds init egpg-buster @egpg-buster`
+  - Create a directory for the container: `ds init pgpg-buster @pgpg-buster`
 
-  - Fix the settings: `cd /var/ds/egpg-buster/ ; vim settings.sh`
+  - Fix the settings: `cd /var/ds/pgpg-buster/ ; vim settings.sh`
 
-  - Get the proper branch of *egpg*: `git clone --branch gnupg-2.2 https://github.com/easygnupg/egpg`
+  - Get *pgpg*: `git clone https://github.com/easygnupg/pgpg`
 
   - Create the container: `ds make`
+  
+  - Install *pgpg* inside the container: `ds inject install.sh`
+
 
 
 ## Other commands
