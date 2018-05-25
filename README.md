@@ -15,9 +15,11 @@
 
   - Fix the settings: `cd /var/ds/pgpg-bionic/ ; vim settings.sh`
 
-  - Get the proper branch of *pgpg*: `git clone --branch gnupg-2.2 https://github.com/easygnupg/pgpg`
+  - Get *pgpg*: `git clone https://github.com/easygnupg/pgpg`
 
   - Create the container: `ds make`
+  
+  - Install *pgpg* inside the container: `ds inject install.sh`
 
 
 ## Other commands
