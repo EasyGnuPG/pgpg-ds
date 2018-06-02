@@ -24,5 +24,4 @@ RUN apt -y install jekyll
 RUN apt -y install less man
 
 ### install pgpg dependencies
-RUN apt -y install python3-gpg python3-pip
-RUN pip3 install virtualenv
+RUN apt -y install python3-gpg
