@@ -11,7 +11,7 @@ WORKDIR /host/pgpg
 
 ### install dependencies
 RUN apt -y install gnupg2 pinentry-tty haveged libgfshare-bin parcimonie \
-        qrencode imagemagick zbar-tools wget coreutils psmisc make
+        qrencode imagemagick zbar-tools wget coreutils psmisc make sudo
 
 ### install ronn to make the man pages
 RUN apt -y install ruby-dev gcc && \
