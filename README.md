@@ -6,14 +6,14 @@
 
   - Then get the scripts from github:
     ```
-    git clone --branch bionic \
+    git clone --branch buster \
         https://github.com/easygnupg/pgpg-ds \
-        /opt/docker-scripts/pgpg-bionic
+        /opt/docker-scripts/pgpg-buster
     ```
 
-  - Create a directory for the container: `ds init pgpg-bionic @pgpg-bionic`
+  - Create a directory for the container: `ds init pgpg-buster @pgpg-buster`
 
-  - Fix the settings: `cd /var/ds/pgpg-bionic/ ; vim settings.sh`
+  - Fix the settings: `cd /var/ds/pgpg-buster/ ; vim settings.sh`
 
   - Get *pgpg*: `git clone --branch gnupg-2.2 https://github.com/easygnupg/pgpg`
 
