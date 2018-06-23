@@ -22,7 +22,6 @@
   - Install *egpg* inside the container: run `make` inside the container
 
 
-
 ## Other commands
 
    ```
